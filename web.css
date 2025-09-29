@@ -1,0 +1,123 @@
+.navbar{
+	display: flex;
+	gap:20px;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	width: 100%;
+	position: fixed;
+	
+}
+.portfolio{
+	height:100vh;
+	width: 100%;
+	display: flex;
+	
+}
+.navbar li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	list-style-type: none;
+	color: white;
+
+}
+.navbar li{
+	list-style: none;
+}
+.leftside,.rightside{
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.leftside{
+	background-color:#262525;
+	width: 70%;
+	padding-left: 50px;
+	color: white;
+
+}
+.rightside{
+	background:linear-gradient(360deg,blue,#262525);
+	width: 30%;
+
+}
+.icon{
+	color: white;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	font-size: 30px;
+}
+.button1{
+	background-color:blue;
+	color: white;
+	height:40px;
+	width:100px;
+	border-radius:5px ;
+	font-size: 20px;
+}
+.button2{
+	border: 1px solid blue;
+	color:blue;
+	height:40px;
+	width:150px;
+	border-radius:5px ;
+	font-size: 20px;
+	background: transparent;
+	margin-left:30px ;
+}
+.button1:hover{
+	background:transparent;
+	border: 1px solid blue;
+	color: blue;
+}
+.button2:hover{
+	background-color: blue;
+	color: white;
+}
+.content{
+	padding-left: 40px;
+	text-align: justify;
+}
+.content h2{
+		font-size: 50px;
+}
+.content h1{
+	color: blue;
+	font-size:70px;
+	font-weight:bolder;
+}
+.content p{
+	font-size: 20px;
+	width: 600px;
+	line-height: 30px;
+}
+.design, .circle1, .circle2{
+	aspect-ratio: 1;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 70.88%;
+	transform: translate(-50%,-50%);
+}
+.circle1{
+	background:linear-gradient(90deg,transparent 50%,#262525 50%);
+	width: 500px;
+}
+.circle2{
+	background-color: white;
+	width: 400px;
+	background-image: url('IMG-20250110-WA0061.jpg');
+	background-size: 100%;
+	box-shadow: 
+	0 0 10px white,
+	inset 0 0 20px white,
+	0 0 10px blue,
+	inset 0 0 30px blue,
+	0 0 50px blue;
+	border: 1px solid white;
+
+}
+
+
+

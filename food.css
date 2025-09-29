@@ -1,0 +1,126 @@
+
+.navbar{
+	display: flex;
+	gap: 10px;
+	justify-content:center;
+	align-items: center;
+	
+}
+.fooddelivery{
+	display: flex;
+	height: 40px;
+	width: 100%;
+	background-color:black ;
+	opacity: 0.5;
+	position: fixed;
+	
+}
+.navbar li{
+	list-style: none;
+	padding-left: 20px;
+}
+.navbar li a{
+	text-decoration: none;
+	color:white;
+	font-weight: bold;
+	font-family: times new roman;
+    font-size:20px;
+    padding-left:40px;
+}
+.navbar li a:hover{
+	color:blue;
+}
+.image{
+	background-image: url('b1.jpg');
+	background-size:cover;
+	background-position: fixed;
+	height: 800px;
+	width: 100%;
+    padding-top: 100px;
+    
+}
+.service{
+	width: 100%;
+	height: 500px;
+}
+.our{
+	text-align: center;
+	font-size: 50px;
+}
+
+.wel{
+	color: white;
+	padding-top:200px ;
+	font-size: 50px;
+	text-align: center;
+}
+.input1{
+	width:200px;
+	height: 50px;
+	background:none;
+	color: white;
+	border: 2px solid white;
+	font-size: 20px;
+	border-radius: 5px;
+	
+}
+.input1:hover{
+	background-color: dimgray;
+	color: black;
+	font-weight: bolder;
+	border: 2px solid black;
+}
+.product1{
+	border: 2px solid black;
+	border-radius: 20px;
+	float: left;
+	width:40%;
+	height:300px;
+	padding-top: 20px;
+	background-color:#ccd1d9;
+}
+.product2{
+	border: 2px solid black;
+	border-radius: 20px;
+	float: left;
+	width:40%;
+	height:300px;
+	padding-top: 20px;
+	background-color:#ccd1d9;
+}
+.product3{
+	border: 2px solid black;
+	border-radius: 20px;
+	width:40%;
+	height:300px;
+	padding-top: 20px;
+	background-color:#ccd1d9;
+}
+.product{
+	display: flex;
+	gap: 10px;
+}
+.b1{
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo3RQV_0HY6ODHJr2cRIcXK0t1mrGbHNxRig&s');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+}
+.b2{
+	background-image: url('https://www.forbes.com/advisor/wp-content/uploads/2022/04/Image_-_Website_types_.jpeg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: white;
+	opacity: 0.7;
+	height: 600px;
+}	
+.b3{
+	margin-left:400px ;
+	color: black;
+}
+.a{
+	margin-left: 600px;
+	width: 100px;
+	font-weight: bold;
+	font-size: 20px;
+}
