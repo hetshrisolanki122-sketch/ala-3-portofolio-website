@@ -63,11 +63,11 @@ header nav ul li a:hover {
     0 0 20px rgb(114, 102, 163),
     inset 0 0 40px rgb(114, 102, 163),
     0 0 60px rgb(114, 102, 163);
-  border: 2px solid rgb(169, 88, 139);*/
+  border: 2px solid rgb(169, 88, 139);
 
 
 }
-
+*/
 @keyframes gradientShift {
   0% {
     background-position: 0% 50%;
@@ -263,3 +263,4 @@ footer {
   color: #fff;
 
 }
+
