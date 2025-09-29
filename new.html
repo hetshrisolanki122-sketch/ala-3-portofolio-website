@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Interactive Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="logo">MyPortfolio</div>
+    <nav>
+      <ul>
+        <li><a href="#home"><i class="fa-solid fa-house"></i>&ensp;Home</a></li>
+        <li><a href="#projects"><i class="fa-solid fa-diagram-project"></i>&ensp;Projects</a></li>
+        <li><a href="#service"><i class="fa-brands fa-servicestack"></i>&ensp;Service</a></li>
+        <li><a href="#about"><i class="fa-solid fa-address-card"></i>&ensp;About</a></li>
+        <li><a href="#contact"><i class="fa-regular fa-address-book"></i>&ensp;Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <img src="C:\Users\SOLANKI HETSHRI\OneDrive\Pictures\my image\IMG-20250111-WA0037.jpg" alt="" width="400px"
+      height="400px" style="border-radius: 50%; margin-left: 540px;margin-top: 30px;">
+    <h1>Hello, I'm <span class="highlight">Hetshri</span></h1>
+    <p>A Web Designer & Developer</p>
+    <p style="text-align: justify; padding-left: 510px;">I am a creative and detail-oriented Web Design Developer with
+      a passion <br>for building interactive, responsive, and user-friendly websites. <br>Skilled in HTML, CSS,
+      JavaScript,
+      and modern frameworks, I bring ideas to <br>life with clean code and aesthetic design.</p>
+    <button onclick="scrollToProjects()">View My Work</button>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>My Web Design Projects</h2>
+    <div class="project-container">
+      <div class="project-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUB3hj9e_dNcyzGygoPjhOtq1i8ylleDobZw&s"
+          width="200px" height="200px" alt="Portfolio">
+        <h3>🌐 Portfolio Website</h3>
+        <p>A personal portfolio built with HTML, CSS.</p>
+        <a href="C:\Users\SOLANKI HETSHRI\OneDrive\Desktop\website\web.html" onclick="showDetails('Project 1')"
+          target="_blank">🔗 View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUu6QZjVyzhmgHimt1C8bNsH3XtWCvxPwxYw&s"
+          width="200px" height="200px" alt=" E-Commerce Site">
+        <h3>💻 E-Commerce Site</h3>
+        <p>Basic online store with cart and checkout features.</p>
+        <a href="C:\Users\SOLANKI HETSHRI\OneDrive\Desktop\websites\meesho.html" onclick="showDetails('Project 2')"
+          target="_blank">🔗 View Project</a>
+      </div>
+      <div class="project-card">
+        <img
+          src="https://images.pexels.com/photos/687824/pexels-photo-687824.jpeg?cs=srgb&dl=pexels-edwardeyer-687824.jpg&fm=jpg"
+          width="200px" height="200px" alt="Food delivery">
+        <h3>Food delivery Page</h3>
+        <p>Basic online food catering and delivery page.</p>
+        <a href="C:\Users\SOLANKI HETSHRI\OneDrive\Desktop\website\food.html" onclick="showDetails('Project 3')"
+          target="_blank">🔗 View Project</a>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="service" class="service">
+    <h1>My Services</h1><br>
+    <p>What I Can Do For You in Web Designing</p>
+
+    <section class="services">
+      <div class="service-card">
+        <h2>🌐 Website Design</h2>
+        <p>Modern, responsive, and user-friendly website design tailored to your needs.</p>
+        <a href="#contact" class="btn">Learn More</a>
+      </div>
+
+      <div class="service-card">
+        <h2>🎨 UI/UX Design</h2>
+        <p>Creative and intuitive UI/UX design for a smooth user experience across devices.</p>
+        <a href="#contact" class="btn">Learn More</a>
+      </div>
+
+      <div class="service-card">
+        <h2>⚡ Front-End Development</h2>
+        <p>Clean, optimized HTML, CSS, and JavaScript code for interactive and fast websites.</p>
+        <a href="#contact" class="btn">Learn More</a>
+      </div>
+
+      <div class="service-card">
+        <h2>📱 Responsive Design</h2>
+        <p>Ensuring your site looks perfect on all devices – desktop, tablet, and mobile.</p>
+        <a href="#contact" class="btn">Learn More</a>
+      </div>
+    </section>
+
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p style="text-align: justify;padding-left: 350px; padding-top: 30px;">Hi, I’m <strong>Hetshri Solanki</strong>, a
+      passionate Web Designer & Frontend Developer who loves transforming ideas into <br><br>visually stunning and
+      user-friendly websites. I specialize in creating modern,responsive, and interactive
+      <br><br> designs that not only look beautiful but also deliver seamless user experiences.
+
+      <br><br>With expertise in HTML, CSS, JavaScript, and modern frameworks, I focus on blending creativity with
+      <br><br>functionality. From clean layouts to engaging animations, <br><br>I aim to build websites that leave a
+      lasting impression.
+
+      <br><br><big>💡</big> My goal is to craft designs that tell your story, reflect your brand, and connect with your
+      <br><br>
+
+      When I’m not designing, you’ll find me exploring new design trends, experimenting <br><br> with colors &
+      typography, or working on creative side projects.
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 MyPortfolio | Designed by Hetshri Solanki ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,264 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f5f5f5;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #111;
+  color: #fff;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+header .logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  padding-right: 100px;
+  gap: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #ff4b5c;
+}
+
+/* Hero Section */
+.hero {
+  height: 110vh;
+  background: linear-gradient(to right, #111, #333);
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(270deg, #75529b, #ee0979, #00c9ff, #0c63ba);
+  background-size: 800% 800%;
+  animation: gradientShift 15s ease infinite;
+}
+
+.hero img {
+  box-shadow:
+    0 0 20px rgb(10, 10, 10),
+    inset 0 0 30px rgb(11, 11, 11),
+    0 0 20px rgb(114, 102, 163),
+    inset 0 0 40px rgb(114, 102, 163),
+    0 0 60px rgb(114, 102, 163);
+  border: 2px solid rgb(169, 88, 139);
+
+
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.hero .highlight {
+  color: #161516;
+}
+
+.hero button {
+  margin-top: 20px;
+  margin-left: 470px;
+  padding: 12px 25px;
+  border: none;
+  background: #121212;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+  width: 600px;
+}
+
+.hero button:hover {
+  background: #bab4b5;
+  color: #8c4ec5;
+  font-size: 20px;
+  width: 600px;
+}
+
+/* Projects */
+.projects {
+  padding: 80px 50px;
+  background: #fff;
+  text-align: center;
+}
+
+.project-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.project-card a {
+  text-decoration: none;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-card button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  background: #111;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.service {
+  padding: 80px 50px;
+  background: #d3caca;
+  text-align: center;
+  height: 800px;
+}
+
+/* About */
+.about {
+  margin-top: 80px;
+  padding: 80px 50px;
+  background: #f0f0f0;
+  text-align: center;
+}
+
+/* Contact */
+.contact {
+  padding: 80px 50px;
+  background: #a3c5d4;
+  text-align: center;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+  margin: auto;
+}
+
+.contact input,
+.contact textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.contact button {
+  padding: 12px;
+  border: none;
+  background: #ff4b5c;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.contact button:hover {
+  background: #ff2a3f;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: #fff;
+}
+
+
+.services {
+  max-width: 1100px;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  padding: 0 20px;
+}
+
+.service-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+  text-align: center;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.service-card h2 {
+  color: #667eea;
+  margin-bottom: 15px;
+}
+
+.service-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #667eea;
+  color: #fff;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #764ba2;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  background: #333;
+  color: #fff;
+}
